@@ -4,11 +4,12 @@ import 'bootstrap/dist/js/bootstrap'
 
 
 
-class Contact extends React.Component {
+class About extends React.Component {
      render() {
           return (
-               <h1>Contact ME</h1>
-          )
+               <div>
+                    <h1>About Page</h1></div>
+          );
      }
 }
-export default Contact;
+export default About;
